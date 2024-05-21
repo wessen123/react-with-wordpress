@@ -4,8 +4,9 @@
   "description": ":fire: This is a workshop for learning how to build React Applications.",
   "main": "index.js",
   "scripts": {
-    "webpack-dev-server": "webpack-dev-server",
-    "dev": "webpack serve --mode=development",
+    "start": "set PORT=3005 && react-scripts start",
+    "webpack-dev-server": "webpack-dev-server --port 3005",
+    "dev": "webpack serve --mode=development --port 3005",
     "prod": "webpack --mode=production"
   },
   "repository": {
@@ -20,10 +21,13 @@
   },
   "homepage": "https://github.com/imranhsayed/react-workshop#readme",
   "dependencies": {
+    "@reach/router": "^1.3.4",
+    "axios": "^1.7.1",
     "css-loader": "^5.2.6",
     "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-render-html": "^0.6.0",
     "style-loader": "^2.0.0"
   },
   "devDependencies": {
