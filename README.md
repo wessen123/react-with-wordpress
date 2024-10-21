@@ -30,5 +30,5 @@ This project is a web application that allows users to create and manage posts u
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/react-with-wordpress.git
+   git clone https://github.com/wessen123/react-with-wordpress.git
    cd react-with-wordpress
